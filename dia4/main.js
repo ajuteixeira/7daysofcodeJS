@@ -1,4 +1,4 @@
-const numeroSecreto = Math.floor(Math.random() * (10 - 0 + 1) + 0); 
+const numeroSecreto = Math.floor(Math.random() * (10 - 0 + 1) + 0);
 let chute = "";
 let chances = "";
 let acertou = false;
@@ -13,9 +13,9 @@ for (chances = 0; chances < 3; chances++) {
     acertou = true;
     break;
   }
-// em caso de erro
+  // em caso de erro
   alert("Errou!");
-} 
+}
 
 // fim de jogo após 3 tentativas erradas
 if (!acertou) {
